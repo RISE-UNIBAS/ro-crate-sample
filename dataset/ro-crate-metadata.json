@@ -72,7 +72,9 @@
           "@id": "video/BirdsAndFeeder.mp4"
         }
       ],
-      "sameAs": []
+      "sameAs": [],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "datePublished": "2024-05-07"
     },
     {
       "@id": "#Person-1",
