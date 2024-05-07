@@ -1,0 +1,235 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    },
+    {
+      "iso6523Code": "http://schema.org/iso6523Code"
+    },
+    {
+      "copyrightNotice": "http://schema.org/copyrightNotice",
+      "interpretedAsClaim": "http://schema.org/interpretedAsClaim",
+      "archivedAt": "http://schema.org/archivedAt",
+      "creditText": "http://schema.org/creditText"
+    },
+    {
+      "sha256": "http://schema.org/sha256"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./ro-crate-sample"
+      }
+    },
+    {
+      "@id": "./ro-crate-sample",
+      "@type": "Dataset",
+      "name": "RO-Crate Sample Dataset",
+      "description": "https://github.com/RISE-UNIBAS/ro-crate-sample",
+      "author": {
+        "@id": "#Person-1"
+      },
+      "http://schema.org/author": {
+        "@id": "#Person-1"
+      },
+      "hasPart": [
+        {
+          "@id": "audio/birdsoftheair_00_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_01_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_02_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_03_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_04_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_05_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_06_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_07_frost_64kb.mp3"
+        },
+        {
+          "@id": "images/Asian_Fairy-bluebird.jpg"
+        },
+        {
+          "@id": "images/Broad_Billed_Warbler.jpg"
+        },
+        {
+          "@id": "video/BirdsAndFeeder.mp4"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@id": "#Person-1",
+      "@type": "Person",
+      "name": "Maximilian Hindermann",
+      "sameAs": "https://orcid.org/0000-0002-9337-4655",
+      "affiliation": {
+        "@id": "#Organization-1"
+      }
+    },
+    {
+      "@id": "audio/birdsoftheair_00_frost_64kb.mp3",
+      "@type": "File",
+      "license": "https://creativecommons.org/public-domain/",
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/"
+    },
+    {
+      "@id": "audio/birdsoftheair_01_frost_64kb.mp3",
+      "@type": "File",
+      "license": "https://creativecommons.org/public-domain/",
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/"
+    },
+    {
+      "@id": "audio/birdsoftheair_02_frost_64kb.mp3",
+      "@type": "File",
+      "license": "https://creativecommons.org/public-domain/",
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/"
+    },
+    {
+      "@id": "audio/birdsoftheair_03_frost_64kb.mp3",
+      "@type": "File",
+      "license": "https://creativecommons.org/public-domain/",
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/"
+    },
+    {
+      "@id": "audio/birdsoftheair_04_frost_64kb.mp3",
+      "@type": "File",
+      "license": "https://creativecommons.org/public-domain/",
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/"
+    },
+    {
+      "@id": "audio/birdsoftheair_05_frost_64kb.mp3",
+      "@type": "File",
+      "license": "https://creativecommons.org/public-domain/",
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/"
+    },
+    {
+      "@id": "audio/birdsoftheair_06_frost_64kb.mp3",
+      "@type": "File",
+      "license": "https://creativecommons.org/public-domain/",
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/"
+    },
+    {
+      "@id": "audio/birdsoftheair_07_frost_64kb.mp3",
+      "@type": "File",
+      "license": "https://creativecommons.org/public-domain/",
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/"
+    },
+    {
+      "@id": "images/Asian_Fairy-bluebird.jpg",
+      "@type": "File",
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "sameAs": "https://upload.wikimedia.org/wikipedia/commons/1/18/Asian_Fairy-bluebird.jpg",
+      "author": {
+        "@id": "#Person-3"
+      }
+    },
+    {
+      "@id": "images/Broad_Billed_Warbler.jpg",
+      "@type": "File",
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "sameAs": "https://upload.wikimedia.org/wikipedia/commons/1/17/Broad_Billed_Warbler.jpg",
+      "author": {
+        "@id": "#Person-3"
+      }
+    },
+    {
+      "@id": "video/BirdsAndFeeder.mp4",
+      "@type": "File",
+      "sameAs": "https://publicdomainmovie.net/movie/birds-and-feeder-royalty-free-stock-video",
+      "author": {
+        "@id": "#Person-2"
+      }
+    },
+    {
+      "@id": "#Organization-1",
+      "@type": "Organization",
+      "name": "RISE",
+      "sameAs": "https://rise.unibas.ch/",
+      "description": "The University of Basel's Research and Infrastructure Support"
+    },
+    {
+      "@id": "#Person-3",
+      "@type": "Person",
+      "name": "K Shiv Kumar",
+      "sameAs": "https://commons.wikimedia.org/wiki/User:Shiv%27s_fotografia"
+    },
+    {
+      "@id": "#Person-2",
+      "@type": "Person",
+      "name": "Jeffrey Beach"
+    },
+    {
+      "@id": "#Audiobook-1",
+      "@type": "Audiobook",
+      "name": "The Birds of the Air",
+      "description": "The Birds of the Air\nJohn Frost (1800 - 1859)\n\nIn this book, aimed at children, the author provides a brief profile of 35 different bird species. Strangely for a book titled The Birds of the Air, the first two birds featured are flightless birds: the ostrich and the cassowary. - Summary by Elsie Selwyn\n\nGenre(s): Science\nLanguage: English",
+      "license": "https://creativecommons.org/public-domain/",
+      "hasPart": [
+        {
+          "@id": "audio/birdsoftheair_00_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_01_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_02_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_03_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_04_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_05_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_06_frost_64kb.mp3"
+        },
+        {
+          "@id": "audio/birdsoftheair_07_frost_64kb.mp3"
+        }
+      ],
+      "isPartOf": {
+        "@id": "./ro-crate-sample"
+      },
+      "sameAs": "https://librivox.org/the-birds-of-the-air-by-john-frost/",
+      "author": {
+        "@id": "#Person-4"
+      },
+      "creator": {
+        "@id": "#Person-5"
+      }
+    },
+    {
+      "@id": "#Person-4",
+      "@type": "Person",
+      "name": "John Frost",
+      "sameAs": "https://d-nb.info/gnd/1048707199",
+      "description": "John Frost (1800-1859) was a prolific author of books on nature and American history. His books on nature were written using the pseudonym, Robert Ramble. Frost was born in Maine and graduated from Harvard in 1822. He moved to Philadelphia in 1838 where he taught at the High School of Philadelphia."
+    },
+    {
+      "@id": "#Person-5",
+      "@type": "Person",
+      "name": "Elsie Selwyn",
+      "sameAs": "https://librivox.org/sections/readers/13257"
+    }
+  ]
+}
