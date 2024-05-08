@@ -9,7 +9,7 @@ These materials were created by the University of Basel's Research and Infrastru
 ## File structure 
 
 - [`/dataset`](https://github.com/RISE-UNIBAS/ro-crate-sample/tree/main/dataset) contains sample audio, video and image data with a corresponding `ro-crate-metadata.json` file.
-- [`/docs`](https://github.com/RISE-UNIBAS/ro-crate-sample/tree/main/docs) contains [a HTML preview](https://rise-unibas.github.io/ro-crate-sample/) of `ro-crate-metadata.json` created with [ro-crate-html-js](https://github.com/Language-Research-Technology/ro-crate-html-js).
+- [`/docs`](https://github.com/RISE-UNIBAS/ro-crate-sample/tree/main/docs) contains [a HTML preview](https://rise-unibas.github.io/ro-crate-sample/) of `ro-crate-metadata.json` generated with [ro-crate-html-js](https://github.com/Language-Research-Technology/ro-crate-html-js).
 
 ## License
 
